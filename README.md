@@ -1,6 +1,6 @@
 # PRBNN
 
-PyTorch implementation of PRBNN for uncertainty-aware regression, including 1D simulation notebooks and a solar energy forecasting case study with GPU support.
+PyTorch implementation of PRBNN for uncertainty-aware regression, including 1D simulation scripts, companion notebooks, and a solar energy forecasting case study with GPU support.
 
 The implementation accompanies the PRBNN paper: [arXiv:2210.08608](https://arxiv.org/pdf/2210.08608.pdf).
 
@@ -8,7 +8,7 @@ The implementation accompanies the PRBNN paper: [arXiv:2210.08608](https://arxiv
 
 ```text
 .
-├── PRBNN_1d_regression/       # Notebook examples for 1D regression experiments
+├── PRBNN_1d_regression/       # 1D regression scripts and companion notebooks
 ├── PRBNN_solar_case_study/    # Solar forecasting model, data utilities, and runner
 ├── README.md
 └── requirements.txt
@@ -32,9 +32,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 1D Regression Notebooks
+### 1D Regression
 
-Open the notebooks in `PRBNN_1d_regression/` with Jupyter:
+Run the Python scripts directly:
+
+```bash
+python PRBNN_1d_regression/bbb_aleatoric_soft.py
+python PRBNN_1d_regression/bbb_aleatoric_con_hard_loop.py
+```
+
+The `.ipynb` notebooks are kept as companion files for visualization and GitHub-rendered inspection. Open them with Jupyter if you want to view the original notebook flow:
 
 ```bash
 jupyter notebook PRBNN_1d_regression
