@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local data, model checkpoints, and generated outputs
+data/
+datasets/
+*.pkl
+*.pth
+*.pt
+*.ckpt
+results/
+outputs/
+figures/
+results_with_hard_constraint.png
+PRBNN_solar_case_study/results/
+
+# Logs and local configuration
+*.log
+.env
+.env.*
